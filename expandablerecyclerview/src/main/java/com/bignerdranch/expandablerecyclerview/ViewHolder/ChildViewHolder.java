@@ -1,4 +1,4 @@
-package com.bignerdranch.expandablerecyclerview.ViewHolder;
+package com.bignerdranch.expandablerecyclerview.viewholder;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.View;

@@ -1,7 +1,7 @@
-package com.bignerdranch.expandablerecyclerview.Adapter;
+package com.bignerdranch.expandablerecyclerview.adapter;
 
-import com.bignerdranch.expandablerecyclerview.Model.ParentListItem;
-import com.bignerdranch.expandablerecyclerview.Model.ParentWrapper;
+import com.bignerdranch.expandablerecyclerview.model.ParentListItem;
+import com.bignerdranch.expandablerecyclerview.model.ParentWrapper;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -3,7 +3,7 @@ package com.ryanbrooks.expandablerecyclerviewsample.linear.vertical;
 import android.view.View;
 import android.widget.TextView;
 
-import com.bignerdranch.expandablerecyclerview.ViewHolder.ChildViewHolder;
+import com.bignerdranch.expandablerecyclerview.viewholder.ChildViewHolder;
 import com.ryanbrooks.expandablerecyclerviewsample.R;
 
 public class IngredientViewHolder extends ChildViewHolder {

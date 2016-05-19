@@ -1,4 +1,4 @@
-package com.bignerdranch.expandablerecyclerview.Adapter;
+package com.bignerdranch.expandablerecyclerview.adapter;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -6,10 +6,10 @@ import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.ViewGroup;
 
-import com.bignerdranch.expandablerecyclerview.Model.ParentListItem;
-import com.bignerdranch.expandablerecyclerview.Model.ParentWrapper;
-import com.bignerdranch.expandablerecyclerview.ViewHolder.ChildViewHolder;
-import com.bignerdranch.expandablerecyclerview.ViewHolder.ParentViewHolder;
+import com.bignerdranch.expandablerecyclerview.model.ParentListItem;
+import com.bignerdranch.expandablerecyclerview.model.ParentWrapper;
+import com.bignerdranch.expandablerecyclerview.viewholder.ChildViewHolder;
+import com.bignerdranch.expandablerecyclerview.viewholder.ParentViewHolder;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -246,7 +246,7 @@ public abstract class ExpandableRecyclerAdapter<PVH extends ParentViewHolder, CV
     }
 
     /**
-     * Implementation of {@link com.bignerdranch.expandablerecyclerview.ViewHolder.ParentViewHolder.ParentListItemExpandCollapseListener#onParentListItemExpanded(int)}.
+     * Implementation of {@link com.bignerdranch.expandablerecyclerview.viewholder.ParentViewHolder.ParentListItemExpandCollapseListener#onParentListItemExpanded(int)}.
      * <p>
      * Called when a {@link ParentListItem} is triggered to expand.
      *
@@ -261,7 +261,7 @@ public abstract class ExpandableRecyclerAdapter<PVH extends ParentViewHolder, CV
     }
 
     /**
-     * Implementation of {@link com.bignerdranch.expandablerecyclerview.ViewHolder.ParentViewHolder.ParentListItemExpandCollapseListener#onParentListItemCollapsed(int)}.
+     * Implementation of {@link com.bignerdranch.expandablerecyclerview.viewholder.ParentViewHolder.ParentListItemExpandCollapseListener#onParentListItemCollapsed(int)}.
      * <p>
      * Called when a {@link ParentListItem} is triggered to collapse.
      *
